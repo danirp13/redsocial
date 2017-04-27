@@ -128,6 +128,7 @@ AUTHENTICATION_BACKENDS = (
     'social_core.backends.google.GoogleOAuth2',
     'social_core.backends.google.GoogleOAuth',
     
+    'social_core.backends.twitter.TwitterOAuth',
     #'social_core.backends.twitter.TwitterOAuth',
     #'social_core.backends.yahoo.YahooOpenId',
     'social_core.backends.facebook.FacebookAppOAuth2',
@@ -144,3 +145,6 @@ SOCIAL_AUTH_FACEBOOK_SECRET = 'cbf6d50d0811733f3f29bb8becfb51b4'
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '130865286667-4nmii8imndm6fg0oahh0u1ctn0crehg4.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET  = 'K94WrQaDb3kKI8dI7yyOWQiJ'
+
+SOCIAL_AUTH_TWITTER_KEY = 'YbxUyizOC3uuHQqPqAjoL4UXZ'
+SOCIAL_AUTH_TWITTER_SECRET = 'ly82lTH7ME4SkxJvVpwyZVEH8xChDZRRAP4UQMYkyhXAO3Xcgk'

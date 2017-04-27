@@ -1,7 +1,7 @@
-<a href="{% url 'social:begin' 'google-oauth2' %}">
-	google+
-</a> <br>
 
-<a href="{% url 'social:begin' 'facebook' %}">
-	facebook
-</a>
+
+<button onclick="window.location.href='{% url 'social:begin' 'twitter' %}'"></a>Login Twitter</button>
+
+<button onclick="window.location.href='{% url 'social:begin' 'facebook' %}'"></a>Login Facebook</button>
+
+<button onclick="window.location.href='{% url 'social:begin' 'google-oauth2' %}'"></a>Login Google</button>
